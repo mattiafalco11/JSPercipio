@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Modi differenti per mostrare le informzioni</h2>
+    
+    <p id = "code"></p>
+
+    <script>
+        document.getElementById("code").innerHTML = "Hello world..! from setting of the innerHTML";
+    </script>
+
+    <p>Hello world! from a paragraph tag in the HTML page</p>
+
+    <script>document.write("Hello world! from document.write()")</script>
+
+    <br>
+    <br>
+
+    <button onclick="document.write('Hello world! from second document.write()')">Click to clear the HTML</button>
+
+    <br>
+    <br>
+
+    <button onclick="window.alert('Hello world! from window alert')">Click to view a window alert</button>
+
+    <script>console.log("Hello world! console message")</script>
+
+
+</body>
+</html>
